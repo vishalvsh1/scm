@@ -1,0 +1,1281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+<head>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<link rel="stylesheet" href="http://twiki.corp.inmobi.com/pub/TWiki/HeadlinesPlugin/style.css" type="text/css" media="all" />
+<title> ScmDeploymentPlan &lt; SCM &lt; TWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="icon" href="http://twiki.corp.inmobi.com/pub/Main/InMobiLogos/favico.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://twiki.corp.inmobi.com/pub/Main/InMobiLogos/favico.ico" type="image/x-icon" />
+<link rel="alternate" href="http://twiki.corp.inmobi.com/bin/edit/SCM/ScmDeploymentPlan?t=1366628466" type="application/x-wiki" title="Edit ScmDeploymentPlan" />
+<link rel="edit" href="http://twiki.corp.inmobi.com/bin/edit/SCM/ScmDeploymentPlan?t=1366628466" title="Edit ScmDeploymentPlan" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<meta name="robots" content="noindex" /><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/SCM/WebRss" />
+<base href="http://twiki.corp.inmobi.com/SCM/ScmDeploymentPlan"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script><style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+
+
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(/pub/TWiki/PatternSkin/TWiki_header.gif); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+<!--GENERATED_HEADERS--><!-- TWISTYPLUGIN_TWISTY --> <style type="text/css" media="all">
+@import url("http://twiki.corp.inmobi.com/pub/TWiki/TwistyContrib/twist.css");
+</style>
+<script type='text/javascript' src='http://twiki.corp.inmobi.com/pub/TWiki/BehaviourContrib/behaviour.compressed.js'></script>
+<script type="text/javascript" src="http://twiki.corp.inmobi.com/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="http://twiki.corp.inmobi.com/pub/TWiki/TWikiJavascripts/twikiPref.js"></script>
+<script type="text/javascript" src="http://twiki.corp.inmobi.com/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="http://twiki.corp.inmobi.com/pub/TWiki/TwistyContrib/twist.compressed.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+var styleText = '<style type="text/css" media="all">.twikiMakeVisible{display:inline;}.twikiMakeVisibleInline{display:inline;}.twikiMakeVisibleBlock{display:block;}.twikiMakeHidden{display:none;}</style>';
+document.write(styleText);
+// ]]>
+</script>
+
+<!-- TABLEPLUGIN_twikiAttachmentsTable --> <style type="text/css" media="all">
+.tableSortIcon img {padding-left:.3em; vertical-align:text-bottom;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable th {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:top;}
+.twikiTable#twikiAttachmentsTable th {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable th.twikiSortedCol {background-color:#eeeeee;}
+.twikiTable#twikiAttachmentsTable th {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover font {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td.twikiSortedCol {background-color:#f5f5f5;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol0 {text-align:center;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol1 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol2 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol3 {text-align:right;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol4 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol5 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol6 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol7 {text-align:center;}
+</style></head>
+<body class="patternViewPage patternPrintPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain">
+<div id="patternMainContents">
+<div class="patternContent"><div class="patternTopic"> <h6><a name=""></a>  </h6>
+<p />
+SCM » <a href="/SCM/ScmFlow" class="twikiLink">ScmFlow</a> » <a href="/SCM/SCMFlowComponents" class="twikiLink">SCMFlowComponents</a> » <a href="/SCM/ScmDeploymentPlan" class="twikiCurrentTopicLink twikiLink">ScmDeploymentPlan</a>
+<p />
+<h1><a name="SCM_Deployment_Plan"></a>  SCM Deployment Plan </h1>
+<p />
+<div class="twikiToc"> <ul>
+ <li>
+ <ul>
+ <li>
+ <ul>
+ <li>
+ <ul>
+ <li>
+ <ul>
+<li> <a href="?cover=print#"> </a>
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</li> <li> <a href="?cover=print#Flow"> Flow</a> <ul>
+<li> <a href="?cover=print#SVN_Deployment_Plan"> SVN Deployment Plan</a> <ul>
+<li> <a href="?cover=print#System_Information"> System Information</a>
+</li> <li> <a href="?cover=print#Location_of_installed_tools_and"> Location of installed tools and their configurations</a> <ul>
+<li> <a href="?cover=print#Subversion"> Subversion</a>
+</li> <li> <a href="?cover=print#Apache"> Apache</a>
+</li> <li> <a href="?cover=print#View_VC"> View VC</a>
+</li></ul> 
+</li></ul> 
+</li> <li> <a href="?cover=print#Jenkins_Deployment_Pan"> Jenkins Deployment Pan</a> <ul>
+ <li>
+ <ul>
+<li> <a href="?cover=print#Deployment_Steps"> Deployment Steps</a> <ul>
+<li> <a href="?cover=print#Hardware"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation"> Installation</a>
+</li> <li> <a href="?cover=print#Authentication"> Authentication</a>
+</li> <li> <a href="?cover=print#DNS_Entry"> DNS Entry</a>
+</li> <li> <a href="?cover=print#Configuration"> Configuration</a>
+</li> <li> <a href="?cover=print#Backup"> Backup</a>
+</li> <li> <a href="?cover=print#Replication"> Replication</a>
+</li> <li> <a href="?cover=print#Promoting_A_Slave_To_A_Master"> Promoting A Slave To A Master</a>
+</li></ul> 
+</li> <li> <a href="?cover=print#Step_by_step_deployment"> Step by step deployment</a>
+</li></ul> 
+</li></ul> 
+</li> <li> <a href="?cover=print#Review_Board_Deployment_Plan"> Review Board Deployment Plan</a> <ul>
+ <li>
+ <ul>
+<li> <a href="?cover=print#Deployment_Steps_AN1"> Deployment Steps</a> <ul>
+<li> <a href="?cover=print#Hardware_AN1"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation_AN1"> Installation</a>
+</li> <li> <a href="?cover=print#Authentication_AN1"> Authentication</a>
+</li> <li> <a href="?cover=print#DNS_entry"> DNS entry</a>
+</li> <li> <a href="?cover=print#Configuration_AN1"> Configuration</a>
+</li> <li> <a href="?cover=print#Backup_AN1"> Backup</a>
+</li> <li> <a href="?cover=print#Replication_AN1"> Replication</a>
+</li> <li> <a href="?cover=print#Recovery_failover"> Recovery/failover</a>
+</li></ul> 
+</li> <li> <a href="?cover=print#Step_by_Step_Deployment"> Step by Step Deployment</a> <ul>
+<li> <a href="?cover=print#Hardware_AN2"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation_AN2"> Installation</a>
+</li> <li> <a href="?cover=print#Authentication_AN2"> Authentication</a>
+</li> <li> <a href="?cover=print#Configuration_AN2"> Configuration</a>
+</li> <li> <a href="?cover=print#Backup_AN2"> Backup</a>
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</li> <li> <a href="?cover=print#Open_Grok_Deployment_Plan"> Open Grok Deployment Plan</a>
+</li> <li> <a href="?cover=print#Nexus_Deployment_Plan"> Nexus Deployment Plan</a> <ul>
+ <li>
+ <ul>
+<li> <a href="?cover=print#Deployment_Steps_AN2"> Deployment Steps</a> <ul>
+<li> <a href="?cover=print#Hardware_AN3"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation_AN3"> Installation</a>
+</li> <li> <a href="?cover=print#Authentication_AN3"> Authentication</a>
+</li> <li> <a href="?cover=print#DNS_entry_AN1"> DNS entry</a>
+</li> <li> <a href="?cover=print#Configuration_AN3"> Configuration</a>
+</li> <li> <a href="?cover=print#Backup_AN3"> Backup</a>
+</li> <li> <a href="?cover=print#Replication_AN2"> Replication</a>
+</li> <li> <a href="?cover=print#Promoting_mirror_to_master"> Promoting mirror to master</a>
+</li></ul> 
+</li> <li> <a href="?cover=print#Step_by_Step_Deployment_AN1"> Step by Step Deployment</a> <ul>
+<li> <a href="?cover=print#Hardware_AN4"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation_AN4"> Installation</a>
+</li> <li> <a href="?cover=print#Authentication_AN4"> Authentication</a>
+</li> <li> <a href="?cover=print#Configuration_AN4"> Configuration</a>
+</li> <li> <a href="?cover=print#Backup_AN4"> Backup</a>
+</li> <li> <a href="?cover=print#Replication_AN3"> Replication</a>
+</li> <li> <a href="?cover=print#FailOver"> FailOver</a>
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</li> <li> <a href="?cover=print#Sonar"> Sonar</a> <ul>
+ <li>
+ <ul>
+<li> <a href="?cover=print#Deployment_Steps_AN3"> Deployment Steps</a> <ul>
+<li> <a href="?cover=print#Hardware_AN5"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation_AN5"> Installation</a>
+</li> <li> <a href="?cover=print#Authentication_AN5"> Authentication</a>
+</li> <li> <a href="?cover=print#DNS_entry_AN2"> DNS entry</a>
+</li> <li> <a href="?cover=print#Configuration_AN5"> Configuration</a>
+</li> <li> <a href="?cover=print#Backup_AN5"> Backup</a>
+</li> <li> <a href="?cover=print#FailOver_AN1"> FailOver</a>
+</li></ul> 
+</li> <li> <a href="?cover=print#Step_by_step_Deployment"> Step by step Deployment</a> <ul>
+<li> <a href="?cover=print#Hardware_AN6"> Hardware</a>
+</li> <li> <a href="?cover=print#Installation_AN6"> Installation</a>
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</li></ul> 
+</div>
+<h2><a name="Flow"></a> Flow </h2>
+<p />
+<img alt="HW_functional.JPG" src="http://twiki.corp.inmobi.com/pub/SCM/ScmDeploymentPlan/HW_functional.JPG" />
+<p />
+<h3><a name="SVN_Deployment_Plan"></a> SVN Deployment Plan </h3>
+<p />
+<img alt="SVN_deployment.jpeg" src="http://twiki.corp.inmobi.com/pub/SCM/ScmDeploymentPlan/SVN_deployment.jpeg" />
+<p />
+<h4><a name="System_Information"></a> <strong>System Information</strong> </h4>
+<table cellspacing="0" id="table1" cellpadding="0" class="twikiTable" rules="rows" border="1">
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> &nbsp; </td>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol1"> <font color="#ffffff">OLD SVN Server</font> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol2"> <font color="#ffffff">New SVN Server</font> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol3 twikiLastCol"> <font color="#ffffff">Mirron SVN Server</font> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <font color="#ffffff">DNS Name</font> </th>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1"> svn.mkhoj.com </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol2"> svn.corp.nmobi.com </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol3 twikiLastCol"> svn-mirror.corp.inmobi.com </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <font color="#ffffff">IP/Machine Name</font> </th>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1"> 10.14.100.25 </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol2"> vm1007 (10.14.116.38) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol3 twikiLastCol"> vm1008 (10.14.116.41) </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <font color="#ffffff">SVN version</font> </th>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1"> version 1.5.1 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol2"> version 1.7.1 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol3 twikiLastCol"> version 1.7.1 </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <font color="#ffffff">Repository size</font> </th>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1"> 11GB </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol2"> 50GB disk space </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol3 twikiLastCol"> 50GB disk space </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <font color="#ffffff">Backup/Mirror</font> </th>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1"> No </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol2"> Yes </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol3 twikiLastCol"> This itself is back/mirror host </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> <font color="#ffffff">Repositories Location</font> </th>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLast"> /svn, /var/svn2, /headless </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol2 twikiLast"> /opt/svnroot </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol3 twikiLastCol twikiLast"> /opt/svnroot </td>
+		</tr></table>
+<h4><a name="Location_of_installed_tools_and"></a> <strong>Location of installed tools and their configurations</strong> </h4>
+<p />
+<h5><a name="Subversion"></a> Subversion </h5> <ul>
+<li> Subversion is installed on both the servers at /etc/subversion. Binaries have been softlinked to /usr/bin and /usr/local/bin
+</li> <li> All Repositories are at /opt/svnroot under different cluster (Inmobi, headless, others, retired, sandbox).
+</li> <li> All external scripts which are used by hook scripts are stored in /opt/svnroot/hook-scripts.
+</li> <li> Mirror hooks scripts - In Mirror repository hooks scripts (post-commit etc..) are configured little different because we don't want duplication of sending mails or other checks which are not necessary for mirror repository. But mirror repository is configured only to be read only except for user svn which sync the commit from master to mirror.
+</li></ul> 
+<strong>NOTE</strong> - All hook scripts are stored under SCM repo, if you are making any change in any of these configuration file then please update the same in SVN <a href="http://svn.corp.inmobi.com/others/scm/subversion/repo_Config_commit_Script/" target="_top">http://svn.corp.inmobi.com/others/scm/subversion/repo_Config_commit_Script/</a>
+<p />
+<h5><a name="Apache"></a> Apache </h5> <ul>
+<li> Apache is installed at /etc/apache2
+</li> <li> Restart/Stop/Start apache - use command <em> <code><span style="color: #800000">apachectl &lt;start/stop/restart&gt;</span></code> </em>
+</li> <li> Apache configuration files  <ul>
+<li> <strong>httpd.conf</strong> - This is main apache configuration file where we are defining everything related to apache. Location of the file is <code><b>/etc/apache2/conf/httpd.conf</b></code>
+</li></ul> 
+</li></ul> 
+We are including 3 other conf files
+<p />
+<code><b>Include conf.d/subversion.conf</b></code>
+<p />
+<code><b>Include conf.d/viewvc.conf</b></code>
+<p />
+<code><b>Include conf.d/ssl.conf</b></code>
+<p /> <ul>
+<li> <strong>Subversion.conf</strong> - This configuration file hold all information related to subversion repositories, authentication etc.
+</li> <li> <strong>viewvc.conf</strong> - This file contains the configuration of viewvc installed on the server.
+</li> <li> <strong>ssl.conf</strong> - This file has ssl configuration related info. Keys are placed in conf/keys folder
+</li></ul> 
+<strong>NOTE</strong> - All configuration files are stored under SCM repo, if you are making any change in any of these configuration file then please update the same in SVN <a href="http://svn.corp.inmobi.com/others/scm/subversion/apache/" target="_top">http://svn.corp.inmobi.com/others/scm/subversion/apache/</a>
+<p />
+<h5><a name="View_VC"></a> View VC </h5> <ul>
+<li> viewvvc is installed at /usr/share/viewvc
+</li> <li> viewvc.conf is the viewvc configuration file which has SVN root and other necessary information.
+</li></ul> 
+<strong>NOTE</strong> - All configuration files are stored under SCM repo, if you are making any change in any of these configuration file then please update the same in SVN <a href="http://svn.corp.inmobi.com/others/scm/subversion/viewvc" target="_top">http://svn.corp.inmobi.com/others/scm/subversion/viewvc</a>
+<p />
+<h3><a name="Jenkins_Deployment_Pan"></a> Jenkins Deployment Pan </h3>
+<p />
+<img alt="Jenkins_new.jpeg" src="http://twiki.corp.inmobi.com/pub/SCM/ScmDeploymentPlan/Jenkins_new.jpeg" />
+<p />
+<h5><a name="Deployment_Steps"></a> Deployment Steps </h5>
+<h6><a name="Hardware"></a> Hardware </h6>
+<p />
+As per bug <a href="https://bugs.corp.inmobi.com/show_bug.cgi?id=32732" target="_top">https://bugs.corp.inmobi.com/show_bug.cgi?id=32732</a> 2 Medium size VMs are available for the Jenkins installation.
+<p />
+build1000.scm.corp.ev1.inmobi.com will be master server
+<p />
+build1001.scm.corp.ev1.inmobi.com will be slave server
+<p />
+400GB of disk space is allocated for the build storage by Jenkins under partition /mnt in RAID10 configuration (4 disks needed) <ol>
+<li> How about /d0 or /data/d0. We are trying to standarize mounts across the servers.-  <ul>
+<li> Yes we can change it to /d0 or /data/d0.
+</li></ul> 
+</li></ol> 
+<h6><a name="Installation"></a> Installation </h6>
+<p />
+Here are the steps for the Jenkins installation
+<p />
+<a href="https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu" target="_top">https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu</a>
+<p />
+<strong>Few highlights</strong> <ul>
+<li> Jenkins will run as service by &ldquo;Jenkins&rdquo; system user. Ensure that the UID is &lt; 1000  <ul>
+<li> Create a system jenkins user before installation and make sure it's home directory is set to /d0/jenkins
+</li></ul> 
+</li> <li> Precompiled binaries are available, Need to get the binary and update the apt-get repository  <ul>
+<li> Our systems run apt-get update every 300seconds which will abuse the jenkins apt repo. Ensure that you remove the sources.list.d/ entry post installation. Alternatively, you can ask SA to mirror the Jenkins apt repo internally.
+</li></ul> 
+</li> <li> Default port is 8080, Apache needs to be setup to handle proxy for port 80-&gt;8080
+</li> <li> No need to have https connection setup.  <ul>
+<li> How will user logins be handled? If you are doing auth, it has to be over SSL -&gt; we don't need ssl.
+</li></ul> 
+</li> <li> How can you use Puppet to automate all this.  <ul>
+<li> Puppet can be used  <ul>
+<li> to setup account.
+</li> <li> to setup apache
+</li> <li> to install tools (mentined in next section).
+</li></ul> 
+</li></ul> 
+</li></ul> 
+<h6><a name="Authentication"></a> Authentication </h6>
+<p />
+Authentication needs to be setup (via Jenkins UI) <ul>
+<li> Enable security to use Jenkins's own user database.
+</li> <li> Set matrix based security.
+</li> <li> Setup initial admin user.
+</li></ul> 
+There will be 1 admin user who can do all tasks.
+<p />
+Anonymous user will have all read access.
+<p />
+Other user will get Matrix based access accourding to their role.
+<h6><a name="DNS_Entry"></a> DNS Entry </h6>
+<p />
+A DNS entry has to be setup
+<p />
+build.corp.inmobi.com -&gt; build1000.scm.corp.ev1.inmobi.com <ol>
+<li> How about keeping it simple while adding the SCM namespace. build.scm.corp.inmobi.com will point to the master Jenkins instance  <ul>
+<li> This would work.
+</li></ul> 
+</li></ol> 
+<h6><a name="Configuration"></a> Configuration </h6>
+<p />
+<strong>Master Setup</strong> <ul>
+<li> The installation will use the Jenkins user and /d0/Jenkins as home directory. If same are being used then  <ul>
+<li> /d0/Jenkins  <ul>
+<li> /d0 which will be in a RAID10 configuration. Use this partition to preserve data that is required beyond the life of the server instance. Logs, runtime artifacts, tmp storage etc can be local to the instance.  <ul>
+<li> Configuration, Runtime, and artifact would be stored in /d0 but logs would be local to the system.
+</li></ul> 
+</li></ul> 
+</li> <li> System jenkins account to be used
+</li> <li> Build essential needs to be installed &ndash; java, maven, ant to /d0/Jenkins/tools location  <ul>
+<li> How? Manually? What is the process for bootstrapping Jenkins runtime?  <ul>
+<li> This has to be configured via puppet to install build essential on all jenkins machine (master and slave).
+</li></ul> 
+</li></ul> 
+</li> <li> After Jdk, ant and maven installation, path needs to be set in configuration. (via Jenkins UI)  <ul>
+<li> Automate?- not very easily. I would like to keep it via UI because its not just 3 items needs to be set , these are just very basic tools. going forward there will be many more things to be setup. Anyway we will be taking backup of configuration so this will ne only one time job even in case of failover.
+</li></ul> 
+</li> <li> For email notification SMTP configuration needs to be done. (via Jenkins UI)
+</li></ul> 
+</li></ul> 
+<strong>Slave Setup</strong> <ul>
+<li> Slave will be setup as agent via ssh from master  <ul>
+<li> Wont you need keys?- 3rd point cover this.
+</li></ul> 
+</li> <li> Install Jenkins as per master on slave machine too, this will take care of 2 goals  <ul>
+<li> 1st  <ul>
+<li> Setup of same userid Jenkins as Master and its path.
+</li> <li> Installation java, maven, and ant on slave at /d0/Jenkins/tools location.
+</li></ul> 
+</li> <li> 2nd  <ul>
+<li> Preinstall ready jenkins for failover.
+</li></ul> 
+</li></ul> 
+</li> <li> Setup password less authentication from master to slave for Jenkins user
+</li> <li> Click Manage Jenkins, then Manage Nodes, then click "New Node." In this set up, you'll supply the connection information. (via Jenkins UI).
+</li> <li> Please do not start jenkins on slave machine. disable from init script too.  <ul>
+<li> Ensure puppet is used to disable
+</li></ul> 
+</li></ul> 
+<h6><a name="Backup"></a> Backup </h6>
+<p />
+Backup of Master jenkins configuration will needs to be taken.
+<p />
+A script will take all configuration needed and create a tar file for backup.
+<h6><a name="Replication"></a> Replication </h6>
+<p />
+drbd replication needs to be setup to copy the tools/build essential and configurations/manifest of master to slave for failover switch.
+<p />
+Going through Drbd setup and configuration, do not have exact installation and configuration steps at the moment. <ol>
+<li> We might not be needed DRBD since runtime data can be exported and imported into slave and then promoted to master
+</li></ol> 
+<h6><a name="Promoting_A_Slave_To_A_Master"></a> Promoting A Slave To A Master </h6>
+<p />
+<strong>Case 1.</strong> When OS fails <ul>
+<li> Mount the /d0 from failed master sreve to any of the slave server and start the jenkins.  <ul>
+<li> There will be existing mount on slave, either rename the existing mount or mount the master partition with new name.
+</li> <li> Edit the /etc/default/jenkins to point to new mount and jenkins home, if you are mounting master partition with new name.
+</li></ul> 
+</li> <li> Change the DNS to new server.
+</li></ul> 
+<strong>Case 2.</strong> When disk crashes <ul>
+<li> Take the backup of all configuration and export it to slave on /d0 and start the jenkins.  <ul>
+<li> Since we are not storing any data, so there will not be any historical data of previous build. Once configuration will be exported to new instance.
+</li></ul> 
+</li> <li> Change the DNS to new server.
+</li></ul> 
+<p />
+<h5><a name="Step_by_step_deployment"></a> Step by step deployment </h5>
+<p />
+<strong>Rename mount /mtn to /d0</strong> <ul>
+<li> <code>Edit /etc/fstab</code>
+</li> <li> <code>Unmounts /mnt</code>
+</li> <li> <code>Executed mount &ndash;a</code>
+</li></ul> 
+<strong>Created local Jenkins user and Jenkins group</strong> <ul>
+<li> <code>sudo groupadd -g 150 jenkins</code>
+</li> <li> <code>sudo useradd -d /d0/jenkins -g jenkins -s /bin/bash -u 114 jenkins</code>
+</li> <li> <code>sudo mkdir /d0/jenkins</code>
+</li> <li> <code>sudo chown -R jankins:jenkins /d0/jenkins/</code>
+</li></ul> 
+<strong>Installation of Jenkins</strong> <ul>
+<li> JDK installed  <ul>
+<li> <code>sudo apt-get install sun-java6-jdk</code>
+</li></ul> 
+</li> <li> Jenkins install  <ul>
+<li> <code>wget -q -O - <a href="http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key" target="_top">http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key</a> | sudo apt-key add -</code>
+</li> <li> <code>sudo sh -c 'echo deb <a href="http://pkg.jenkins-ci.org/debian" target="_top">http://pkg.jenkins-ci.org/debian</a> binary/ &gt; /etc/apt/sources.list.d/jenkins.list'</code>
+</li> <li> <code>sudo aptitude update</code>
+</li> <li> <code>sudo aptitude install Jenkins</code>
+</li> <li> <code>edit /etc/default/Jenkins to update JENKINS_HOME to /d0/jenkins</code>
+</li></ul> 
+</li></ul> 
+<strong>Apache Setup</strong>
+<p />
+This configuration will setup Apache2 to proxy port 80 to 8080 so that you can keep Jenkins on 8080. <ul>
+<li> <code>sudo aptitude install apache2</code>
+</li> <li> <code>sudo a2enmod proxy</code>
+</li> <li> <code>sudo a2enmod proxy_http</code>
+</li> <li> <code>sudo a2enmod vhost_alias</code>
+</li> <li> <code>sudo a2dissite default</code>
+</li> <li> <code>Create a file called jenkins in /etc/apache2/sites-available</code>
+</li></ul> 
+<span style="color: hotpink;">&lt;VirtualHost *:80&gt;</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span style="color: hotpink;"> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerAdmin?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerAdmin (this topic does not yet exist; you can create it)">ServerAdmin</a></span> webmaster@localhost</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span style="color: hotpink;"> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerName?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerName (this topic does not yet exist; you can create it)">ServerName</a></span> ci.company.com</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span style="color: hotpink;"> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerAlias?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerAlias (this topic does not yet exist; you can create it)">ServerAlias</a></span> ci</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyRequests?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyRequests (this topic does not yet exist; you can create it)">ProxyRequests</a></span> Off
+<p />
+&lt;Proxy *&gt;
+<p />
+Order deny,allow
+<p />
+Allow from all
+<p />
+&lt;/Proxy&gt;
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPreserveHost?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPreserveHost (this topic does not yet exist; you can create it)">ProxyPreserveHost</a></span> on
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPass?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPass (this topic does not yet exist; you can create it)">ProxyPass</a></span> / <a href="http://localhost:8080/" target="_top">http://localhost:8080/</a>
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPassReverse?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPassReverse (this topic does not yet exist; you can create it)">ProxyPassReverse</a></span> / <a href="http://localhost:8080/" target="_top">http://localhost:8080/</a>
+<p />
+&lt;/VirtualHost&gt;
+<p /> <ul>
+<li> <code>sudo a2ensite jenkins</code>
+</li> <li> <code>sudo apache2ctl restart</code>
+</li></ul> 
+Try to access your site and it should be up and running.
+<p />
+<strong>Other essential installation</strong> <ul>
+<li> Ant  <ul>
+<li> <code>sudo apt-get install ant</code>
+</li></ul> 
+</li> <li> Maven  <ul>
+<li> <code>sudo apt-get install maven2</code>
+</li></ul> 
+</li></ul> 
+<strong>Jenkins Configuration</strong> <ul>
+<li> Authentication  <ul>
+<li> <code>Manage Jenkins -&gt; configure system -&gt; enable security</code>
+</li> <li> <code>Select Security plan -&gt; Jenkins's own user database</code>
+</li> <li> <code>Select Authorization -&gt; Matrix based security</code>
+</li></ul> 
+</li></ul> 
+<p /> <ul>
+<li> Build essential config  <ul>
+<li> JDK :- <code>Manage Jenkins -&gt; configure system -&gt; add JDK location</code>
+</li> <li> Maven :- <code>Manage Jenkins -&gt; configure system -&gt; add Maven location</code>
+</li> <li> Ant :- <code>Manage Jenkins -&gt; configure system -&gt; add ant location</code>
+</li></ul> 
+</li></ul> 
+<p /> <ul>
+<li> Mail config  <ul>
+<li> <code>add mail server name</code>
+</li></ul> 
+</li></ul> 
+<strong>Slave Configuration</strong> <ul>
+<li> Installed Jenkins as per master installation and stopped the services.
+</li> <li> Generated keys on master and then moved keys to slave  <ul>
+<li> <code>Master - &gt; ssh-keygen -t rsa</code>
+</li> <li> <code>Slave -&gt; Copy entry of id_rsa.pub to slave ~/.ssh/ authorized_keys</code>
+</li></ul> 
+</li> <li> Adding/registering slave to master  <ul>
+<li> Open the master UI Jenkins, go to manage Jenkins -&gt; manage nodes
+</li> <li> Click on new node, entre the node name (select the dumb slave).
+</li> <li> Entre the necessary configuration detail  <ul>
+<li> <code>Number of Executers - 2</code>
+</li> <li> <code>Remote FS root - root directory of Jenkins</code>
+</li> <li> <code>Launch method - unix machine via ssh</code>
+</li> <li> <code>Host - host name of slave machine</code>
+</li> <li> <code>Username - Jenkins</code>
+</li> <li> <code>Password - empty</code>
+</li> <li> <code>Private key file - location of id_rsa.pub on master</code>
+</li></ul> 
+</li> <li> Save the configuration.
+</li></ul> 
+</li> <li> Launch the slave.
+</li></ul> 
+<strong>Plugin installation</strong> <ul>
+<li> SVN/Git repository plugins
+</li> <li> <span class="twikiNewLink"><a href="/bin/edit/SCM/TestNG?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="TestNG (this topic does not yet exist; you can create it)">TestNG</a></span> plugin for test analysis
+</li> <li> Sonar plugin for White box analysis
+</li> <li> Xvfb and Xvnc plugins for UI tests
+</li></ul> 
+<strong>Backup</strong>
+<p />
+A simple backup script has been written which will cteate a tar file of /d0/jenkins expect builds and workspace<strong>. </strong>The tar file can be handed over to SA team/ backup team to store or whatever way we are going to backup it. 1 week backup retention would be good enough.
+<p />
+Size of the tar file would be few MBs.
+<h3><a name="Review_Board_Deployment_Plan"></a> Review Board Deployment Plan </h3>
+<p />
+<img alt="RB.jpeg" src="http://twiki.corp.inmobi.com/pub/SCM/ScmDeploymentPlan/RB.jpeg" />
+<p />
+<h5><a name="Deployment_Steps_AN1"></a> Deployment Steps </h5>
+<h6><a name="Hardware_AN1"></a> Hardware </h6> <ul>
+<li> Need 1 medium size VMs for RB tool.
+</li> <li> Need 150GB mounted space to store Database.
+</li></ul> 
+<h6><a name="Installation_AN1"></a> Installation </h6>
+<p />
+<strong>Prerequisite</strong> :- <ul>
+<li> Need mysql as database.
+</li> <li> Need Apache + mod_wsgi.
+</li></ul> 
+<strong>Package distribution</strong>:- package is available on review board site but installation will take care of this.
+<p />
+<strong>Highlight</strong> <ul>
+<li> RB runs on apache.
+</li> <li> we are using memcached for caching.
+</li> <li> Mysql is for database.
+</li> <li> rb site is configured at /var/www/rb
+</li></ul> 
+<h6><a name="Authentication_AN1"></a> Authentication </h6>
+<p />
+Authentication needs to be setup (via UI) <ul>
+<li> Local authenitcation will be used until SSO is configured.
+</li> <li> Setup initial admin user
+</li></ul> 
+There will be 1 admin user who can do all tasks.
+<p />
+Group based role would be enabled.
+<p />
+<h6><a name="DNS_entry"></a> DNS entry </h6>
+<p />
+Need DNS entry rb.scm.corp.inmobi.com which will point to the nexus instance.
+<h6><a name="Configuration_AN1"></a> Configuration </h6> <ul>
+<li> Configure mail setting  <ul>
+<li> update the host name, port and email address.
+</li></ul> 
+</li> <li> Enable search.
+</li> <li> disable registration.
+</li> <li> enable logging.
+</li></ul> 
+<h6><a name="Backup_AN1"></a> Backup </h6>
+<p />
+Back up of /d0/mysql is needed.
+<p />
+As of now raid 1 configuration is done to replicate the disk data.
+<h6><a name="Replication_AN1"></a> Replication </h6>
+<p />
+As of now raid 1 configuration is done to replicate the disk data.
+<h6><a name="Recovery_failover"></a> Recovery/failover </h6>
+<p />
+Sicne this application is not very critical so, there is now 2nd instance for fail over.
+<p />
+If server goes down or not recoverable then build a medium size vm with same name. We have /d0 EBS partition raid 1 enabled. Ask SA team to get it for you and mount it back to new server.
+<p />
+Go through installation, and load the data.
+<h5><a name="Step_by_Step_Deployment"></a> Step by Step Deployment </h5>
+<h6><a name="Hardware_AN2"></a> Hardware </h6>
+<p />
+Got the VM rb1000.scm.corp.ev1.inmobi.com
+<p />
+EBS volume 150X2 with raid 1 enabled.
+<h6><a name="Installation_AN2"></a> Installation </h6>
+<p />
+<strong>Prerequisite</strong> <ul>
+<li> Mysql Installation  <ul>
+<li> <code><span style="color: #800000">sudo apt-get installe mysql-server</span></code>
+</li> <li> Change of the data directory to EBS volume (currently it is /var/lib/mysql).  <ul>
+<li> Stop <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> <code>sudo service mysql stop</code>
+</li> <li> Now Copy the existing data directory (default located in /var/lib/mysql) <code>sudo cp -R -p /var/lib/mysql /d0/mysql</code>
+</li> <li> Now edit the <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> configuration file vi /etc/mysql/my.cnf
+</li> <li> Look for the entry for "datadir", and change the path (which should be "/var/lib/mysql") to the new data directory (/d0/mysql).<br />Important Note:-From Ubuntu 7.10 (Gutsy Gibbon) forward, Ubuntu uses some security software called <span class="twikiNewLink"><a href="/bin/edit/SCM/AppArmor?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="AppArmor (this topic does not yet exist; you can create it)">AppArmor</a></span> that specifies the areas of your filesystem applications are allowed to access. Unless you modify the <span class="twikiNewLink"><a href="/bin/edit/SCM/AppArmor?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="AppArmor (this topic does not yet exist; you can create it)">AppArmor</a></span> profile for <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span>, you'll never be able to restart <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> with the new datadir location.
+</li> <li> <code>vi /etc/apparmor.d/usr.sbin.mysqld</code>. lines beginning with "/var/lib/mysql", change it to /d0/mysql
+</li> <li> Restart the <span class="twikiNewLink"><a href="/bin/edit/SCM/AppArmor?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="AppArmor (this topic does not yet exist; you can create it)">AppArmor</a></span> profiles with the command <code><span style="color: #800000">sudo /etc/init.d/apparmor reload</span></code>
+</li> <li> Restart <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> with the command <span style="color: #800000"> <code>sudo /etc/init.d/mysql restart</code> </span>
+</li></ul> 
+</li> <li> Now you will need to create a DB for review board.
+</li></ul> 
+</li> <li> Apache Installation  <ul>
+<li> <code>sudo apt-get install apache2</code>
+</li></ul> 
+</li></ul> 
+<strong>RB installation</strong> <ul>
+<li> sudo apt-get install libapache2-mod-wsgi
+</li> <li> sudo apt-get install python-setuptools
+</li> <li> sudo apt-get install python-dev
+</li> <li> sudo apt-get install memcached
+</li> <li> sudo apt-get install patch
+</li> <li> sudo easy_install <span class="twikiNewLink"><a href="/bin/edit/SCM/ReviewBoard?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ReviewBoard (this topic does not yet exist; you can create it)">ReviewBoard</a></span>
+</li> <li> sudo apt-get install python-mysqldb
+</li> <li> sudo apt-get install git-core
+</li> <li> sudo apt-get install subversion python-svn
+</li> <li> 
+</li></ul> 
+<strong>RB site installation/creation</strong> <ul>
+<li> sudo rb-site install /var/www/rb  <ul>
+<li> Use mysql, apache, wsgi in options.
+</li></ul> 
+</li> <li> chown -R www-data /var/www/rb
+</li></ul> 
+<strong>Web Server Configuration</strong>
+<p /> <ul>
+<li> cd /etc/apache2/sites-available
+</li> <li> cp /var/www/rb/conf/apache-wsgi.conf rb.conf
+</li> <li> cd ../sites-enabled
+</li> <li> ln -s ../sites-available/rb.conf .
+</li> <li> sudo rm 000-default
+</li> <li> sudo service apache2 restart
+</li></ul> 
+<strong>Optimization</strong> <ul>
+<li> Memcached  <ul>
+<li> vi /etc/memcached.conf (change -m value to 2048)(-m 2048).
+</li> <li> sudo service restart memcached
+</li></ul> 
+</li> <li> Mysql  <ul>
+<li> query_cache_type needs to be set to 1 to enable caching.
+</li> <li> query_cache_size is the size of the cache. This can be in bytes, or you can use a M suffix to specify the amount of megabytes.
+</li> <li> query_cache_limit is the maximum size of an individually cached query. Queries over this size won&rsquo;t go into the cache. This is also in bytes, or megabytes with the M suffix. 1MB is a safe bet.
+</li> <li> To enable query caching with 64MB, set:<br />[mysqld]<br />query_cache_type = 1<br />query_cache_size = 64M<br />query_cache_limit = 1M
+</li> <li> Sudo service mysql restart
+</li></ul> 
+</li> <li> Search Index <ul>
+<li> Since we have installed <span class="twikiNewLink"><a href="/bin/edit/SCM/PyLucene?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="PyLucene (this topic does not yet exist; you can create it)">PyLucene</a></span> and enabled the search via general setting (in Next section Configuration). we will enable the search indexing.
+</li> <li> Run following command as root because root has write access. <ul>
+<li> crontab /var/www/rb/conf/search-cron.conf
+</li> <li> This will install the search index cron for root.
+</li></ul> 
+</li> <li> Run following to run the indexing manualy first time. <ul>
+<li> rb-site manage /var/www/rb index -- --full
+</li></ul> 
+</li></ul> 
+</li></ul> 
+<h6><a name="Authentication_AN2"></a> Authentication </h6>
+<p />
+Changed the admin password
+<p />
+<h6><a name="Configuration_AN2"></a> Configuration </h6>
+<p />
+Go to Dashboard admin setting. <ul>
+<li> General setting -change admin email, and enable search.
+</li> <li> Authentication setting- disable registration,disallow anonymouns access.
+</li> <li> email setting
+</li> <li> Enable logging.
+</li></ul> 
+<p />
+<h6><a name="Backup_AN2"></a> Backup </h6>
+<p />
+Back up of /d0/mysql is needed. Script will be written to take backup of this directory to store on backup device.
+<p />
+<h3><a name="Open_Grok_Deployment_Plan"></a> Open Grok Deployment Plan </h3>
+<p />
+<img alt="OpenGrok.jpeg" src="http://twiki.corp.inmobi.com/pub/SCM/ScmDeploymentPlan/OpenGrok.jpeg" />
+<p />
+<h3><a name="Nexus_Deployment_Plan"></a> Nexus Deployment Plan </h3>
+<p />
+<img alt="Maven_deployment.jpeg" src="http://twiki.corp.inmobi.com/pub/SCM/ScmDeploymentPlan/Maven_deployment.jpeg" />
+<p />
+<h5><a name="Deployment_Steps_AN2"></a> Deployment Steps </h5>
+<h6><a name="Hardware_AN3"></a> Hardware </h6> <ul>
+<li> Need 2 normal size VMs for Nexus repo manager.
+</li> <li> Need 100GB mounted space to store artifact.  <ul>
+<li> If we need further space then we have flexibility to use extended partition without impacting existing setup.
+</li></ul> 
+</li></ul> 
+<h6><a name="Installation_AN3"></a> Installation </h6>
+<p />
+<strong>Prerequisite</strong> :- <ul>
+<li> Need latest java (JRE) to run the nuxes.
+</li> <li> Need drbd disk replication installed and running.
+</li></ul> 
+<strong>Package distribution</strong>:- Nexus can be downloaded from nexus site <a href="http://www.sonatype.org/nexus/go" target="_top">http://www.sonatype.org/nexus/go</a>
+<p />
+<strong>Highlight</strong> <ul>
+<li> 2 nexus host will sync the data via drbd disk replication system. Install and setup the drbd disk replication system on both boxes. Make one as master and 2nd as secodary to sync the data.
+</li> <li> nexus will run as service by &ldquo;nexus&rdquo; system user. Ensure that the UID is &lt; 1000
+</li> <li> Nexus would be installed on local disk space /usr/local/nexus.2.0.3
+</li> <li> a sym link would be made /usr/local/nexus -&gt; /usr/local/nexus.2.0.3 which will make upgradation easy.
+</li> <li> Configure nexus as service.  <ul>
+<li> Copy <em>$NEXUS_HOME/bin/nexus</em> to /etc/init.d/nexus
+</li> <li> Make the /etc/init.d/nexus script executable - chmod 755 /etc/init.d/nexus
+</li> <li> Edit this script changing the following variables:  <ul>
+<li> Change NEXUS_HOME to the absolute folder location e.g. NEXUS_HOME="/usr/local/nexus"
+</li> <li> If Java is not on the default path for the user running Nexus, add a JAVA_HOME variable which points to your local Java installation and add a <em>$JAVA_HOME/bin</em> to the PATH
+</li> <li> Set the RUN_AS_USER to "nexus".
+</li></ul> 
+</li></ul> 
+</li> <li> Default port is 8081, Apache needs to be setup to handle proxy for port 80-&gt;8081
+</li></ul> 
+<p />
+<h6><a name="Authentication_AN3"></a> Authentication </h6>
+<p />
+Authentication needs to be setup (via UI) <ul>
+<li> Enable security to use nexus own user database.
+</li> <li> Setup initial admin user
+</li> <li> Modify permission to anonymous user
+</li> <li> update deployment account who can deploy the artifact.
+</li></ul> 
+There will be 1 admin user who can do all tasks.
+<p />
+Anonymous user will have all read access.
+<p />
+deployment account will be used by jenkins to deploy artifact to nexus.
+<p />
+<strong>Note - </strong>Further users and roles can be extended(Repository and action based privilege) as per our requirement.
+<h6><a name="DNS_entry_AN1"></a> DNS entry </h6>
+<p />
+Need DNS entry nexus.scm.corp.inmobi.com which will point to the nexus instance.
+<h6><a name="Configuration_AN3"></a> Configuration </h6> <ul>
+<li> Configure mail setting  <ul>
+<li> update the host name, port and email address.
+</li></ul> 
+</li> <li> Enable Remote Index Downloads
+</li> <li> Move sonatype work directory to /d0 mount where it will store all artifact.
+</li></ul> 
+<h6><a name="Backup_AN3"></a> Backup </h6>
+<p />
+Back up of /d0/sonatype-work is needed
+<h6><a name="Replication_AN2"></a> Replication </h6>
+<p />
+drbd replication will be setup between master and mirror server.
+<h6><a name="Promoting_mirror_to_master"></a> Promoting mirror to master </h6>
+<p />
+<strong>Case 1. </strong>when OS crashes <ul>
+<li> Mirror nexus is running with disk replication.
+</li> <li> stop the disk replication and made it writable
+</li> <li> chang the DNS entry
+</li></ul> 
+<strong>Case 2.</strong> when disk crashes (/d0) <ul>
+<li> Mirror nexus is running with disk replication.
+</li> <li> stop the disk replication and made it writable
+</li> <li> chang the DNS entry
+</li></ul> 
+<strong>Case 3.</strong> When Both mirror and master are not reachable and dpartion (d0) can not be retrieved <ul>
+<li> We already have backup of /d0/sonatype-work.
+</li> <li> Setup new nexus server
+</li> <li> Copy the backup of sonatype-work directory to newly installed nexus.
+</li> <li> Recent data may be lost between last backup and disaster time.
+</li></ul> 
+<h5><a name="Step_by_Step_Deployment_AN1"></a> Step by Step Deployment </h5>
+<h6><a name="Hardware_AN4"></a> Hardware </h6>
+<p />
+need to get from SA.
+<h6><a name="Installation_AN4"></a> Installation </h6>
+<p />
+<strong>Prerequisite</strong> <ul>
+<li> java Installation  <ul>
+<li> <code>sudo apt-get installe sun-java6-jdk</code>
+</li></ul> 
+</li> <li> drbd replication installed and running setup.
+</li></ul> 
+<strong>User Creation</strong> <ul>
+<li> <code>sudo groupadd -g 151 nexus</code>
+</li> <li> <code>sudo useradd -d /var/local/nexus -g nexus -s /bin/bash -u 115 nexus</code>
+</li></ul> 
+<strong>Nexus installation</strong> <ul>
+<li> <code>cd /tmp</code>
+</li> <li> =wget <a href="http://www.sonatype.org/downloads/nexus-2.0.3-bundle.tar.gz=" target="_top">http://www.sonatype.org/downloads/nexus-2.0.3-bundle.tar.gz=</a>
+</li> <li> <code>cd /usr/local/</code>
+</li> <li> <code>sudo tar -xvf /tmp/nexus-2.0.3-bundle.tar</code>
+</li> <li> <code>sudo ln -s nexus-2.0.3 nexus</code>
+</li> <li> <code>sudo chown -R nexus:nexus nexus-2.0.3</code>
+</li> <li> <code>sudo chown -R nexus:nexus nexus</code>
+</li></ul> 
+<strong>Adding Nexus as service</strong> <ul>
+<li> <code>sudo cp /usr/local/nexus/bin/nexus /etc/init.d/nexus</code>
+</li> <li> <code>sudo chmod 755 /etc/init.d/nexus</code>
+</li> <li> <code>sudo vi /etc/init.d/nexus</code>
+</li> <li> <code>updated NEXUS_HOME to /usr/local/nexus</code>
+</li> <li> <code>updated RUN_AS_USER to nexus</code>
+</li> <li> <code>cd /etc/init.d</code>
+</li> <li> <code>update-rc.d nexus defaults</code>
+</li> <li> <code>service nexus start</code>
+</li></ul> 
+<strong>Apache redirection</strong>
+<p />
+This configuration will setup Apache2 to proxy port 80 to 8081 so that you can keep nexus on 8081. <ul>
+<li> <code>sudo aptitude install apache2</code>
+</li> <li> <code>sudo a2enmod proxy</code>
+</li> <li> <code>sudo a2enmod proxy_http</code>
+</li> <li> <code>sudo a2enmod vhost_alias</code>
+</li> <li> <code>sudo a2dissite default</code>
+</li> <li> <code>Create a file called nexus in /etc/apache2/sites-available</code>
+</li></ul> 
+<span style="color: hotpink;">&lt;VirtualHost *:80&gt;</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span style="color: hotpink;"> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerAdmin?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerAdmin (this topic does not yet exist; you can create it)">ServerAdmin</a></span> webmaster@localhost</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span style="color: hotpink;"> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerName?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerName (this topic does not yet exist; you can create it)">ServerName</a></span> ci.company.com</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span style="color: hotpink;"> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerAlias?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerAlias (this topic does not yet exist; you can create it)">ServerAlias</a></span> ci</span>
+<p />
+<span style="color: hotpink;"> </span>
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyRequests?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyRequests (this topic does not yet exist; you can create it)">ProxyRequests</a></span> Off
+<p />
+&lt;Proxy *&gt;
+<p />
+Order deny,allow
+<p />
+Allow from all
+<p />
+&lt;/Proxy&gt;
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPreserveHost?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPreserveHost (this topic does not yet exist; you can create it)">ProxyPreserveHost</a></span> on
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPass?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPass (this topic does not yet exist; you can create it)">ProxyPass</a></span> / <a href="http://localhost:8081/" target="_top">http://localhost:8081/</a>
+<p />
+<span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPassReverse?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPassReverse (this topic does not yet exist; you can create it)">ProxyPassReverse</a></span> / <a href="http://localhost:8081/" target="_top">http://localhost:8081/</a>
+<p />
+&lt;/VirtualHost&gt;
+<p /> <ul>
+<li> <code>sudo a2ensite jenkins</code>
+</li> <li> <code>Edit nexus.properties in $NEXUS_HOME/conf. You&rsquo;ll see an element named nexus-webapp-context-path. Change this value from "/nexus" to "/"</code>
+</li> <li> <code>sudo service nexus restart</code>
+</li> <li> <code>sudo apache2ctl restart</code>
+</li></ul> 
+<p />
+<h6><a name="Authentication_AN4"></a> Authentication </h6>
+<p />
+Changed the admin password <ul>
+<li> security -&gt; change password
+</li></ul> 
+Changed the Deployment password <ul>
+<li> Security - &gt; users -&gt; right click on deployment -&gt; select set password
+</li></ul> 
+<h6><a name="Configuration_AN4"></a> Configuration </h6> <ul>
+<li> Configure mail setting  <ul>
+<li> update the host name, port and email address.
+</li></ul> 
+</li> <li> Enable Remote Index Downloads  <ul>
+<li> Click on Repositories under the Administration menu in the left-hand side of the browser window.
+</li> <li> Select each of the three proxy repositories and change Download Remote Indexes to true in the Configuration tab
+</li></ul> 
+</li> <li> Change the sonatype work directory to /d0/sonatype-work  <ul>
+<li> cd /usr/local/nexus/conf
+</li> <li> vi nexus.properties
+</li> <li> update "nexus-work" location to /d0/sonatype-work/nexus
+</li> <li> sudo mkdir -p /d0/sonatype-work/nexus
+</li> <li> sudo chown -R nexus:nexus /d0/sonatype-work
+</li></ul> 
+</li></ul> 
+<h6><a name="Backup_AN4"></a> Backup </h6>
+<p />
+Back up of /d0/sonatype-work is needed. Script will be written to take backup of this directory to store on backup device.
+<h6><a name="Replication_AN3"></a> Replication </h6>
+<p />
+<strong>Run following on both servers</strong> * Install the tool and module for Vm kernel <ul>
+<li> <code>sudo apt-get install drbd8-source drbd8-utils</code>
+</li> <li> To check your partition  <ul>
+<li> <code>sudo fdisk -l</code>
+</li></ul> 
+</li> <li> Conffiguration file  <ul>
+<li> <code>vi /etc/drbd.conf</code> It shoudl look like
+</li></ul> 
+</li></ul> 
+include "/etc/drbd.d/global_common.conf";
+<p />
+include "/etc/drbd.d/*.res";
+<p /> <ul>
+<li> Edit the configuration and add the data  <ul>
+<li> <code>cd /etc/drbd.d/</code>
+</li> <li> <code>sudo vi global_common.conf</code> Verify that <code>Protocal C</code> should be added
+</li> <li> Edit the resources file to add disk and server related configuration * <code>sudo vi resource.res</code> For example it should look like
+</li></ul> 
+</li></ul> 
+resource r0 {
+<p />
+startup {
+<p />
+wfc-timeout 15;
+<p />
+degr-wfc-timeout 60;
+<p />
+}
+<p />
+net {
+<p />
+cram-hmac-alg sha1;
+<p />
+shared-secret "secret";
+<p />
+}
+<p />
+on maven1000.scm.corp.ev1.inmobi.com {
+<p />
+device /dev/drbd1;
+<p />
+disk /dev/sdb;
+<p />
+address 192.168.131.245:7789;
+<p />
+meta-disk internal;
+<p />
+}
+<p />
+on maven1001.scm.corp.ev1.inmobi.com {
+<p />
+device /dev/drbd1;
+<p />
+disk /dev/sdb;
+<p />
+address 192.168.131.87:7789;
+<p />
+meta-disk internal;
+<p />
+}
+<p />
+}
+<p /> <ul>
+<li> Create device metadata  <ul>
+<li> <code>drbdadm create-md r0</code>
+</li></ul> 
+</li> <li> Attach to backing device.  <ul>
+<li> <code>drbdadm attach r0</code>
+</li></ul> 
+</li> <li> start the drbd  <ul>
+<li> <code>sudo /etc/init.d/drbd start</code>
+</li></ul> 
+</li> <li> Set synchronization parameters.  <ul>
+<li> <code>drbdadm syncer resource</code>
+</li></ul> 
+</li> <li> Connect to peer.  <ul>
+<li> <code>drbdadm connect resource</code>
+</li></ul> 
+</li></ul> 
+<strong>Run only on Primary system</strong> <ul>
+<li> On Primary system run this  <ul>
+<li> To make it primary  <ul>
+<li> <code>drbdadm -- --overwrite-data-of-peer primary r0</code>
+</li></ul> 
+</li> <li> Watch the syncing  <ul>
+<li> <code>watch -n1 cat /proc/drbd</code>
+</li></ul> 
+</li> <li> Make the drbd partion ready and mount it as file system.  <ul>
+<li> <code>sudo mkfs.ext3 /dev/drbd1</code>
+</li> <li> add entry in /etc/fstab
+</li> <li> <code>sudo mount /dev/drbd1 /d0</code>
+</li></ul> 
+</li></ul> 
+</li></ul> 
+<strong>Note</strong>- For more information and documentation, please refer <a href="https://help.ubuntu.com/11.04/serverguide/C/drbd.html" target="_top">https://help.ubuntu.com/11.04/serverguide/C/drbd.html</a> and <a href="http://www.drbd.org/users-guide-8.3/s-configure-resource.html" target="_top">http://www.drbd.org/users-guide-8.3/s-configure-resource.html</a>
+<h6><a name="FailOver"></a> <span class="twikiNewLink"><a href="/bin/edit/SCM/FailOver?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="FailOver (this topic does not yet exist; you can create it)">FailOver</a></span> </h6>
+<p />
+<strong>On Primary</strong> <ul>
+<li> unmount /srv:  <ul>
+<li> <code>sudo umount /d0</code>
+</li></ul> 
+</li> <li> Demote the primary server to the secondary role:  <ul>
+<li> <code>sudo drbdadm secondary r0</code>
+</li></ul> 
+</li></ul> 
+<strong>On Secondary</strong> <ul>
+<li> Now on the secondary server promote it to the primary role:  <ul>
+<li> <code>sudo drbdadm primary r0</code>
+</li></ul> 
+</li> <li> Lastly, mount the partition:  <ul>
+<li> <code>sudo mount /dev/drbd1 /d0</code>
+</li></ul> 
+</li></ul> 
+<strong>NOTE - </strong><span style="color: mediumblue;">DRBD Replication has been stopped Since, we are having RAID 1 configuration on Master.</span>
+<h3><a name="Sonar"></a> Sonar </h3>
+<p />
+Sonar is a quality tool mainly used by QA team.
+<p />
+Sonar has been setup by SCM for QA team and integrated with Jenkins.
+<p />
+SLA- SCM will provide hardware and software support but QA will take care of applications level support.
+<h5><a name="Deployment_Steps_AN3"></a> Deployment Steps </h5>
+<h6><a name="Hardware_AN5"></a> Hardware </h6> <ul>
+<li> Need a medium size VM to host the service.
+</li> <li> a 100 GB RAID 1 enabled disk space.
+</li></ul> 
+<h6><a name="Installation_AN5"></a> Installation </h6>
+<p />
+<strong>Prerequisite</strong> :- <ul>
+<li> Need JDK1.6* to run the nuxes.
+</li> <li> Need apache.
+</li> <li> Need mysql as DB.
+</li></ul> 
+<strong>Highlight</strong> <ul>
+<li> Sonar will be installed on /opt/sonar
+</li> <li> this will use mysql DB.
+</li> <li> Sonar will run behing the apache (sonar on port 9000).
+</li> <li> mysql DB will be located on /d0/mysql
+</li></ul> 
+<h6><a name="Authentication_AN5"></a> Authentication </h6>
+<p />
+Long run we will configure it to use SSO for authentication but as of now we will use local authentication.
+<h6><a name="DNS_entry_AN2"></a> DNS entry </h6>
+<p />
+Cname sonar.scm.corp.inmobi.com has to be added.
+<h6><a name="Configuration_AN5"></a> Configuration </h6> <ul>
+<li> Change the mail setting.
+</li> <li> add necessary users.
+</li> <li> make necessary general setting
+</li></ul> 
+<h6><a name="Backup_AN5"></a> Backup </h6>
+<h6><a name="FailOver_AN1"></a> <span class="twikiNewLink"><a href="/bin/edit/SCM/FailOver?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="FailOver (this topic does not yet exist; you can create it)">FailOver</a></span> </h6>
+<p />
+Need to install the new sonar server and restore the configuration from backuped up configuration.
+<p />
+Restore the disk which has DB, If disk is correpted then we need to take the another disk from RAID1 enabled configuration.
+<h5><a name="Step_by_step_Deployment"></a> Step by step Deployment </h5>
+<h6><a name="Hardware_AN6"></a> Hardware </h6> <ul>
+<li> Medium size host sonar1000.scm.corp.ev1.inmobi.com
+</li> <li> EBS volumes 100GB raid 1 enabled.
+</li></ul> 
+<h6><a name="Installation_AN6"></a> Installation </h6>
+<p />
+<strong>Prerequisite</strong> <ul>
+<li> Mysql Installation  <ul>
+<li> sudo apt-get installe mysql-server
+</li> <li> Change of the data directory to EBS volume (currently it is /var/lib/mysql).  <ul>
+<li> Stop <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> sudo service mysql stop
+</li> <li> Now Copy the existing data directory (default located in /var/lib/mysql) sudo cp -R -p /var/lib/mysql /d0/mysql
+</li> <li> Now edit the <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> configuration file vi /etc/mysql/my.cnf
+</li> <li> Look for the entry for "datadir", and change the path (which should be "/var/lib/mysql") to the new data directory (/d0/mysql).<br />Important Note:-From Ubuntu 7.10 (Gutsy Gibbon) forward, Ubuntu uses some security software called <span class="twikiNewLink"><a href="/bin/edit/SCM/AppArmor?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="AppArmor (this topic does not yet exist; you can create it)">AppArmor</a></span> that specifies the areas of your filesystem applications are allowed to access. Unless you modify the <span class="twikiNewLink"><a href="/bin/edit/SCM/AppArmor?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="AppArmor (this topic does not yet exist; you can create it)">AppArmor</a></span> profile for <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span>, you'll never be able to restart <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> with the new datadir location.
+</li> <li> vi /etc/apparmor.d/usr.sbin.mysqld. lines beginning with "/var/lib/mysql", change it to /d0/mysql
+</li> <li> Restart the <span class="twikiNewLink"><a href="/bin/edit/SCM/AppArmor?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="AppArmor (this topic does not yet exist; you can create it)">AppArmor</a></span> profiles with the command sudo /etc/init.d/apparmor reload
+</li> <li> Restart <span class="twikiNewLink"><a href="/bin/edit/SCM/MySQL?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="MySQL (this topic does not yet exist; you can create it)">MySQL</a></span> with the command sudo /etc/init.d/mysql restart
+</li></ul> 
+</li> <li> To use one of the other databases, you simply need to create a schema and provide permissions to create, update and delete objects. Tables and indexes will then be automatically created when launching Sonar for the first time  <ul>
+<li> wget <a href="https://github.com/SonarSource/sonar/blob/master/sonar-application/src/main/assembly/extras/database/mysql/create_database.sql" target="_top">https://github.com/SonarSource/sonar/blob/master/sonar-application/src/main/assembly/extras/database/mysql/create_database.sql</a>
+</li> <li> wget <a href="https://github.com/SonarSource/sonar/blob/master/sonar-application/src/main/assembly/extras/database/mysql/drop_database.sql" target="_top">https://github.com/SonarSource/sonar/blob/master/sonar-application/src/main/assembly/extras/database/mysql/drop_database.sql</a>
+</li> <li> wget <a href="https://github.com/SonarSource/sonar/blob/master/sonar-application/src/main/assembly/extras/database/mysql/fix_nullable_measure_values.sql" target="_top">https://github.com/SonarSource/sonar/blob/master/sonar-application/src/main/assembly/extras/database/mysql/fix_nullable_measure_values.sql</a>
+</li> <li> mysql -uroot -p &lt; drop_database.sql
+</li> <li> mysql -uroot -p &lt; create_database.sql
+</li> <li> mysql -uroot -p &lt; fix_nullable_measure_values.sql
+</li></ul> 
+</li> <li> ksjdhfjksdf
+</li></ul> 
+</li> <li> Apache Installation  <ul>
+<li> sudo apt-get install apache2
+</li></ul> 
+</li> <li> JDK installation  <ul>
+<li> apt-get install sun-java6-jdk
+</li></ul> 
+</li></ul> 
+<strong>INSTALLING AND CONFIGURING SONAR</strong> <ul>
+<li> add a line in /etc/apt/sources.list <em><span style="color: #800000">deb <a href="http://downloads.sourceforge.net/project/sonar-pkg/deb" target="_top">http://downloads.sourceforge.net/project/sonar-pkg/deb</a> binary/</span></em>
+</li> <li> Run following commands  <ul>
+<li> update the package indexes
+</li> <li> apt-get update
+</li> <li> apt-get install sonar
+</li></ul> 
+</li> <li> Sonar has been installed on /opt/sonar
+</li> <li> Configure the mysql database  <ul>
+<li> vi /opt/sonar/conf/sonar.properties
+</li> <li> add the jdbc information like
+</li></ul> 
+</li></ul> 
+sonar.jdbc.url: jdbc:mysql://192.168.131.126:3306/sonar?useUnicode=true&amp;characterEncoding=utf8&amp;rewriteBatchedStatements=true<br /># Optional properties<br />sonar.jdbc.driverClassName: com.mysql.jdbc.Driver<br />sonar.jdbc.validationQuery: select 1 <ul>
+<li> 
+</li></ul> 
+<strong>Apache Configuration</strong> <ul>
+<li> sudo a2enmod proxy
+</li> <li> sudo a2enmod proxy_http
+</li> <li> sudo a2enmod vhost_alias
+</li> <li> sudo a2dissite default
+</li> <li> vi /etc/apache2/sites-available/sonar
+</li></ul> 
+<em>add following entry</em><br /><span style="color: #800000">&lt;VirtualHost *:80&gt;<br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerAdmin?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerAdmin (this topic does not yet exist; you can create it)">ServerAdmin</a></span> <a href="mailto&#58;rishu&#46;mehrotra&#64;inmobi">rishu.mehrotra&#64;inmobi</a>.com<br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerName?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerName (this topic does not yet exist; you can create it)">ServerName</a></span> sonar.inmobi<br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ServerAlias?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ServerAlias (this topic does not yet exist; you can create it)">ServerAlias</a></span> ci<br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyRequests?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyRequests (this topic does not yet exist; you can create it)">ProxyRequests</a></span> Off<br /> &lt;Proxy *&gt;<br /> Order deny,allow<br /> Allow from all<br /> &lt;/Proxy&gt;<br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPreserveHost?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPreserveHost (this topic does not yet exist; you can create it)">ProxyPreserveHost</a></span> on<br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPass?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPass (this topic does not yet exist; you can create it)">ProxyPass</a></span> / <a href="http://localhost:9000/" target="_top">http://localhost:9000/</a><br /> <span class="twikiNewLink"><a href="/bin/edit/SCM/ProxyPassReverse?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="ProxyPassReverse (this topic does not yet exist; you can create it)">ProxyPassReverse</a></span> / <a href="http://localhost:9000/" target="_top">http://localhost:9000/</a><br />&lt;/VirtualHost&gt;</span> <ul>
+<li> sudo a2ensite sonar
+</li></ul> 
+<strong>Restart Everything</strong> <ul>
+<li> sudo mysql restart
+</li> <li> sudo sonar restart
+</li> <li> sudo apache2 restart
+</li></ul> 
+-- <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> - 2012-03-26
+<p />
+<form method="post" action="http://twiki.corp.inmobi.com/bin/save/SCM/ScmDeploymentPlan" enctype="multipart/form-data" name="above0" id="above0">
+<div class="commentPlugin commentPluginPromptBox"><table border="0" cellpadding="0" cellspacing="0"><tr valign="middle"><td><textarea  rows="3" cols="70" name="comment" class="twikiInputField" wrap="soft" onfocus="if(this.value=='')this.value=''" onblur="if(this.value=='')this.value=''"></textarea></td><td>&nbsp;<input  type="submit" value="Add comment" class="twikiButton" /></td></tr></table></div><!--/commentPlugin-->
+<input type="hidden" name="comment_action" value="save"  />
+<input type="hidden" name="comment_type" value="above"  />
+<input type="hidden" name="comment_index" value="0"  />
+</form>
+<p />
+<img alt="" src="chrome://dictionarytip/skin/dtipIconHover.png" style="z-index: 90; border: 0px solid blue; position: absolute; left: 375px; top: 7479px;" id="smallDivTip" /></div><!-- /patternTopic-->
+<p />
+<p />
+<div class="twikiAttachments">
+<div class="twistyPlugin twikiMakeVisibleInline">  <span id="topicattachmentslistshow" class="twistyRememberSetting twistyTrigger twikiUnvisited twistyHidden twistyInited"><a href="#"><img src="/pub/TWiki/TWikiDocGraphics/toggleopen.gif" border="0" alt="" /><span class="twikiLinkLabel twikiUnvisited">Attachments</span></a> </span> <span id="topicattachmentslisthide" class="twistyRememberSetting twistyTrigger twikiUnvisited twistyHidden twistyInited"><a href="#"><img src="/pub/TWiki/TWikiDocGraphics/toggleclose.gif" border="0" alt="" /><span class="twikiLinkLabel twikiUnvisited">Attachments</span></a> </span>  </div><!--/twistyPlugin twikiMakeVisibleInline--> <div class="twistyPlugin"><div id="topicattachmentslisttoggle" class="twistyRememberSetting twistyContent twikiMakeHidden twistyInited">
+<table summary="Topic attachments" cellspacing="0" id="twikiAttachmentsTable" cellpadding="0" class="twikiTable" rules="rows" border="1"><caption>Topic attachments</caption>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=0;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">I</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol1"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=1;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Attachment</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol2"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=2;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Action</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol3"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=3;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Size</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol4"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=4;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Date</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol5"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=5;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Who</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol6 twikiLastCol"> <a rel="nofollow" href="/SCM/ScmDeploymentPlan?cover=print;sortcol=6;table=2;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Comment</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/else.gif" width="16" height="16" alt="Unknown file format" title="Unknown file format" border="0" /><span class="twikiHidden">JPG</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/HW_functional.JPG">HW_functional.JPG</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=HW_functional.JPG;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 37.5&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-03-26 - 07:42</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> HW functional </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/Jenkins.jpeg">Jenkins.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=Jenkins.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 35.8&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-03-28 - 05:16</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> Jenkins </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/Jenkins_new.jpeg">Jenkins_new.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=Jenkins_new.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 34.5&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-04-02 - 10:07</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> Jenkins Deployment </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/Maven.jpeg">Maven.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=Maven.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 36.1&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-04-10 - 05:04</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> Maven deployment plan </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/Maven_deployment.jpeg">Maven_deployment.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=Maven_deployment.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 36.1&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-04-10 - 05:13</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> Maven deployment </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/OpenGrok.jpeg">OpenGrok.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=OpenGrok.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 15.8&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-03-28 - 05:15</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> Open Grok </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="/pub/SCM/ScmDeploymentPlan/RB.jpeg">RB.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=RB.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 39.5&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">2012-03-27 - 10:02</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> Review Board </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> <img src="/pub/TWiki/TWikiDocGraphics/jpg.gif" width="16" height="16" alt="JPEG" title="JPEG" border="0" /><span class="twikiHidden">jpeg</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1 twikiLast"> <a href="/pub/SCM/ScmDeploymentPlan/SVN_deployment.jpeg">SVN_deployment.jpeg</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2 twikiLast"> <a href="/bin/attach/SCM/ScmDeploymentPlan?filename=SVN_deployment.jpeg;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3 twikiLast"> 73.6&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4 twikiLast"> <span class="twikiNoBreak">2012-03-28 - 12:12</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5 twikiLast"> <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol twikiLast"> svn deployment </td>
+		</tr></table>
+</div></div> <!--/twistyPlugin--></div><!--//twikiAttachments--></div><!-- /patternContent-->
+<hr />
+This topic: SCM<span class='twikiSeparator'>&nbsp;&gt;&nbsp;</span><span class="twikiNewLink"><a href="/bin/edit/Trash/CampaignManagementWebHome1?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="CampaignManagementWebHome1 (this topic does not yet exist; you can create it)">CampaignManagementWebHome1</a></span> &gt; <a href="/SCM/ScmFlow" class="twikiLink">ScmFlow</a> &gt; <a href="/SCM/SCMFlowComponents" class="twikiLink">SCMFlowComponents</a><span class='twikiSeparator'>&nbsp;&gt;&nbsp;</span>ScmDeploymentPlan</span> <br /> 
+Topic revision: r22 - 2012-07-10 - 12:04:24 - <span class="twikiNewLink"><a href="/bin/edit/Main/VishalSahasrabuddhe?topicparent=SCM.ScmDeploymentPlan;nowysiwyg=0" rel="nofollow" title="VishalSahasrabuddhe (this topic does not yet exist; you can create it)">VishalSahasrabuddhe</a></span>
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar">InMobi Technologies Pvt Limited ©</div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
